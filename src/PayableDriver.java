@@ -26,7 +26,7 @@ public class PayableDriver {
         System.out.printf("Total Payout: $%.2f%n", totalPayout);
     }
 
-    public static void main()
+    public static void main(String[] args)
     {
         PayableDriver payables = new PayableDriver();
         payables.getPayablesInformation();
