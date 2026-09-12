@@ -21,11 +21,11 @@ public class Freelancer implements Payable{
     }
 
     public void setHourlyRate(double hourlyRate) {
-        this.hourlyRate = hourlyRate;
+        this.hourlyRate = Math.max(0, hourlyRate);
     }
 
     public void setHoursWorked(double hoursWorked) {
-        this.hoursWorked = hoursWorked;
+        this.hoursWorked = Math.max(0, hoursWorked);
     }
 
     public String getFirstName() {

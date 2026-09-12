@@ -19,7 +19,7 @@ public class VendorInvoice implements Payable{
     }
 
     public void setDueAmount(double dueAmount) {
-        this.dueAmount = dueAmount;
+        this.dueAmount = Math.max(0, dueAmount);
     }
 
     public String getVendorName() {
