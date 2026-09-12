@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class ShipDriver {
     private static Ship[] ships = new Ship[3];
 
