@@ -26,7 +26,7 @@ public class Ship {
     public void print()
     {
         System.out.println("Ship: " + shipName);
-        System.out.println("Ship creation date:" + shipCreationDate);
+        System.out.println("Ship creation date: " + shipCreationDate);
     }
 
 }

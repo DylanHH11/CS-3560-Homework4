@@ -19,7 +19,7 @@ public class CruiseShip extends Ship {
     public void print()
     {
         System.out.println("Ship: " + getShipName());
-        System.out.println("Ship maximum number of passengers:" + maxPassengers);
+        System.out.println("Ship maximum number of passengers: " + maxPassengers);
     }
 
 }

@@ -19,7 +19,7 @@ public class CargoShip extends Ship {
     public void print()
     {
         System.out.println("Ship: " + getShipName());
-        System.out.println("Ship cargo capacity:" + cargoCapacity);
+        System.out.println("Ship cargo capacity: " + cargoCapacity);
     }
 
 }
