@@ -53,5 +53,11 @@ public class EmployeeDriver {
         System.out.println();
     }
 
+    public static void main()
+    {
+        EmployeeDriver employees = new EmployeeDriver();
+        employees.getAllEmployeeInfo();
+    }
+
     
 }
