@@ -16,10 +16,14 @@ public class PayableDriver {
     }
 
     public void getPayablesInformation() {
+        double totalPayout = 0;
         for (Payable i : payablesList)
         {
             i.print();
+            System.out.println();
+            totalPayout += i.calculatePayment();
         }
+        System.out.printf("Total Payout: $%.2f%n", totalPayout);
     }
 
     public static void main()
