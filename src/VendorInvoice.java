@@ -45,7 +45,8 @@ public class VendorInvoice implements Payable{
     }
 
     public void print() {
-        System.out.println("Vendor: " + vendorName + " (Invoice #" + invoiceNumber + ")");
+        System.out.println("Vendor: " + vendorName);
+        System.out.println("Invoice #" + invoiceNumber);
         System.out.printf("Payment Due: $%.2f%n", calculatePayment());
     }
 }
